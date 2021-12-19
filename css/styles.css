@@ -1,0 +1,678 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+html,body{
+	height: 100%;
+}
+
+.clear{
+	clear: both;
+}
+
+.bg{
+	width: 100%;
+	height: 600px;
+	background-image: url('../images/desktop/image-hero.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+.container{
+	max-width: 1280px;
+	padding: 40px 3%;
+	margin: 0 auto;
+}
+
+img.logo-header{
+	float: left;
+}
+
+.menu-desktop{
+	float: right;
+}
+
+.menu-desktop ul{
+	list-style-type: none;
+	margin-top: 3px;
+}
+
+.menu-desktop ul li{
+	float: left;
+	padding: 0 20px;
+}
+
+.menu-desktop li a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Alata', sans-serif;
+	transition: 0.2s;
+}
+
+.menu-desktop li a:hover{
+	border-bottom: 2px solid white;
+	padding: 0 0 5px 0;
+}
+
+.menu-mobile{
+	display: none;
+}
+
+.bg .qualidades{
+	border: 3px solid white;
+	margin: 90px 0 90px 0;
+	width: 100%;
+	max-width: 700px;
+	padding: 45px 35px 35px 35px;
+}
+
+.qualidades h1{
+	font-size: 72px;
+	font-weight: 300;
+	color: white;
+	text-transform: uppercase;
+}
+
+section.sobre{
+	width: 100%;
+}
+
+section.sobre .container{
+	padding: 120px 3%;
+	position: relative;					     
+}
+
+section.sobre .part1{
+	width: 100%;
+	float: left;
+}
+
+section.sobre .part1 img{
+	float: left;
+	width: 70%;
+}
+
+section.sobre .part2{
+	width: 40%;
+	float: left;
+	background-color: white;
+	padding-left: 70px;
+	padding-top: 70px;
+	position: absolute;
+	bottom: 120px;
+	right: 50px;
+}
+
+section.sobre .part2 h2{
+	text-transform: uppercase;
+	font-size: 46px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+section.sobre .part2 p{
+	color: hsl(0, 0%, 55%);
+	font-family: 'Alata', sans-serif;
+	font-size: 16px;
+}
+
+section.carreiras{
+	width: 100%;
+}
+
+section.carreiras > .container{
+	max-width: 1280px;
+	padding: 40px 3% 0 3%;
+}
+
+section.carreiras header h2{
+	text-transform: uppercase;
+	font-size: 42px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	float: left;
+}
+
+section.carreiras header a.button{
+	float: right;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	width: 140px;
+	height: 35px;
+	line-height: 33px;
+	letter-spacing: 3px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	display: block;
+	font-family: 'Alata', sans-serif;
+	border: 2px solid black;
+	transition: 0.5s;
+}
+
+section.carreiras header a.button:hover{
+	float: right;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	width: 140px;
+	height: 35px;
+	line-height: 33px;
+	letter-spacing: 3px;
+	background-color: white;
+	color: black;
+	display: block;
+	border: 2px solid black;
+}
+
+section.carreiras .mosaicos{
+	width: 100%;
+}
+
+section.carreiras .mosaicos .container{
+	max-width: 1280px;
+	padding: 40px calc(3% - 10px) 120px calc(3% - 10px);
+}
+
+section.carreiras .mosaicos .mosaico-image{
+	width: calc(25% - 20px) ;
+	padding-top: 32%;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+section.carreiras .mosaicos .mosaico-image h3{
+	color: white;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	margin-left: 25px;
+}
+
+h3.invisible{
+	color: transparent;
+	text-transform: uppercase;
+	font-size: 32px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	margin-left: 25px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+section.carreiras .mosaicos a.button.mobile{
+	display: none;
+}
+
+footer{
+	background-color: hsl(0, 0%, 0%);
+	padding: 30px 0 30px 0;
+}
+
+footer .part1{
+	width: 50%;
+	float: left;
+}
+
+footer .part1 img.logo-header{
+	width: 150px;
+	float: none;
+	margin-bottom: 20px;
+}
+
+footer .part1 .menu-desktop{
+	float: none;
+}
+
+footer .part1 .menu-desktop ul li{
+	float: left;
+	padding: 0 20px 0 0;
+} 
+
+footer .part2{
+	width: 50%;
+	float: right;
+}
+
+footer .part2 .redes-sociais{
+	float: right;
+	width: 100%;
+	margin-bottom: 22px;
+}
+
+footer .part2 .redes-sociais ul{
+	list-style-type: none;
+	float: right;
+}
+
+footer .part2 .redes-sociais ul li{
+	float: left;
+	padding-left: 20px;
+}
+
+footer .part2 .redes-sociais ul li a{
+	transition: 0.2s;
+}
+
+footer .part2 .redes-sociais ul li a:hover{
+	border-bottom: 2px solid white;
+	padding: 0 0 5px 0;
+}
+
+footer .part2 p{
+	color: hsl(0, 0%, 55%);
+	float: right;
+	font-family: 'Alata', sans-serif;
+	font-size: 16px;
+}
+
+@media screen and (max-width: 1024px){
+
+.bg .qualidades{
+	border: 3px solid white;
+	width: 100%;
+	max-width: 700px;
+	margin: 90px auto;
+}
+
+.qualidades h1{
+	font-size: 72px;
+	font-weight: 300;
+	color: white;
+	text-transform: uppercase;
+}
+
+section.sobre .container{
+	padding: 120px 3%;
+	position: initial;					     
+}
+
+section.sobre .part1{
+	width: 100%;
+	float: none;
+}
+
+section.sobre .part1 img{
+	float: none;
+	width: 100%;
+}
+
+section.sobre .part2{
+	width: 100%;
+	float: none;
+	text-align: center;
+	background-color: transparent;
+	padding-left: 0;
+	padding-top: 70px;
+	position: initial;
+}
+
+section.sobre .part2 h2{
+	text-transform: uppercase;
+	font-size: 46px;
+	font-weight: 300;
+	margin-bottom: 10px;
+}
+
+section.sobre .part2 p{
+	color: hsl(0, 0%, 55%);
+	font-family: 'Alata', sans-serif;
+	font-size: 16px;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+section.carreiras .mosaicos .mosaico-image h3{
+	color: white;
+	text-transform: uppercase;
+	font-size: 27px;
+	font-weight: 300;
+	margin-bottom: 15px;
+	margin-left: 20px;
+}
+
+h3.invisible{
+	color: transparent;
+	text-transform: uppercase;
+	font-size: 27px;
+	font-weight: 300;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+}/*******************FINAL DA MEDIA QUERY 1024px*****************/
+
+@media screen and (max-width: 830px){
+
+.menu-desktop{
+	display: none;
+}
+
+.menu-mobile{
+	display: block;
+	background-image: url('../images/mobile/menu.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%; 
+	background-position: center;
+	float: right;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+}
+
+.menu-mobile ul{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 100px;
+	width: 100%;
+	background-color: #24182b;
+	border-top: 2px solid #6d008c;
+	padding-top: 3px;
+	list-style-type: none;
+	cursor: initial;
+}
+
+.menu-mobile ul li{
+	text-align: center;
+	border-bottom: 2px solid #6d008c;
+	padding: 20px 0;
+}
+
+.menu-mobile ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	position: relative;
+	top: 3px;
+	transition: 0.2s;
+}
+
+.menu-mobile ul li a:hover{
+	color: #e205a0;
+}
+
+section.carreiras header h2{
+	text-transform: uppercase;
+	font-size: 42px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	float: none;
+	text-align: center;
+}
+
+section.carreiras header a.button{
+	float: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	width: 140px;
+	height: 35px;
+	line-height: 35px;
+	letter-spacing: 5px;
+	background-color: black;
+	color: white;
+	text-decoration: none;
+	display: none;
+	font-family: 'Alata', sans-serif;
+}
+
+section.carreiras .mosaicos .container{
+	max-width: 1280px;
+	padding: 40px 3% 120px 3%;
+}
+
+section.carreiras .mosaicos .mosaico-image{
+	width: 100% ;
+	height: 35%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	float: none;
+	margin-left: 0;
+	margin-right: 0;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+section.carreiras .mosaicos .mosaico-image h3{
+	color: white;
+	text-transform: uppercase;
+	font-size: 38px;
+	font-weight: 300;
+	padding-bottom: 20px;
+	margin-left: 25px;
+}
+
+h3.invisible{
+	color: transparent;
+	text-transform: uppercase;
+	font-size: 38px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	margin-left: 25px;
+	position: absolute;
+	top: 0;
+	left: 0;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
+
+section.carreiras .mosaicos a.button.mobile{
+	margin: 50px auto 0 auto;
+	float: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 18px;
+	width: 220px;
+	height: 50px;
+	line-height: 48px;
+	letter-spacing: 5px;
+	background-color: white;
+	color: black;
+	text-decoration: none;
+	display: block;
+	font-family: 'Alata', sans-serif;
+	border: 2px solid black;
+	transition: 0.5s;
+}
+
+section.carreiras .mosaicos a.button.mobile:hover{
+	background-color: black;
+	color: white;
+	border: 2px solid black;
+}
+
+footer .part1{
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+
+footer .part1 img.logo-header{
+	width: 200px;
+	float: none;
+	margin-bottom: 20px;
+}
+
+footer .part1 .menu-desktop{
+	float: none;
+	display: block;
+}
+
+footer .part1 .menu-desktop ul li{
+	float: none;
+	padding: 15px 0;
+}
+
+footer .part1 .menu-desktop ul li a{
+	font-size: 18px;
+}  
+
+footer .part2{
+	width: 100%;
+	float: none;
+}
+
+footer .part2 .redes-sociais{
+	float: none;
+	margin-bottom: 22px;
+	margin-top: 5px;
+	width: 100%;
+}
+
+footer .part2 .redes-sociais ul{
+	list-style-type: none;
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+
+footer .part2 .redes-sociais ul li{
+	float: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+footer .part2 .redes-sociais ul li a{
+	transition: 0.2s;
+}
+
+footer .part2 .redes-sociais ul li a:hover{
+	border-bottom: 2px solid white;
+	padding: 0 0 5px 0;
+}
+
+footer .part2 p{
+	color: hsl(0, 0%, 55%);
+	float: none;
+	display: block;
+	font-family: 'Alata', sans-serif;
+	font-size: 16px;
+	width: 100%;
+	text-align: center;
+}
+
+}/*******************FINAL DA MEDIA QUERY 830px*****************/
+
+@media screen and (max-width: 650px){
+
+.bg .qualidades{
+	border: 3px solid white;
+	margin: 90px 0 90px 0;
+	width: 100%;
+	max-width: 700px;
+	padding: 45px 20px 35px 20px;
+}
+
+.qualidades h1{
+	font-size: 60px;
+	font-weight: 300;
+	color: white;
+	text-transform: uppercase;
+}
+
+}
+
+@media screen and (max-width: 520px){
+
+.bg .qualidades{
+	padding: 40px 20px 30px 20px;
+}
+
+.qualidades h1{
+	font-size: 46px;
+	font-weight: 300;
+	color: white;
+	text-transform: uppercase;
+}
+
+}
+
+@media screen and (max-width: 400px){
+
+.bg .qualidades{
+	padding: 35px 20px 25px 20px;
+}
+
+.qualidades h1{
+	font-size: 40px;
+	font-weight: 300;
+	color: white;
+	text-transform: uppercase;
+}
+
+}
+
+@media screen and (max-width: 350px){
+
+section.carreiras header h2{
+	text-transform: uppercase;
+	font-size: 34px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	float: left;
+}
+
+.qualidades h1{
+	font-size: 34px;
+	font-weight: 300;
+	color: white;
+	text-transform: uppercase;
+}
+
+}
+
+@media screen and (max-width: 310px){
+
+.bg .qualidades{
+	padding: 30px 20px 20px 20px;
+}
+
+.qualidades h1{
+	font-size: 30px;
+	font-weight: 300;
+	color: white;
+	text-transform: uppercase;
+}
+
+section.carreiras header h2{
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	float: left;
+}
+
+}
+
+
